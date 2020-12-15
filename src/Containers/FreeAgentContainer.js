@@ -1,6 +1,5 @@
 import React from 'react';
 import FreeAgent from '../Components/FreeAgent'
-import Header from '../Components/Header'
 
 class FreeAgentContainer extends React.Component {
 
@@ -55,7 +54,6 @@ class FreeAgentContainer extends React.Component {
     render() {
         return (
             <div className="team-container">
-                <Header />
                 {/* <h2 onClick={this.totalSalary}>What is the Salary?</h2> */}
                 {/* <h2 onClick={this.renderByTeam}>Where are Yankees?</h2> */}
                 {this.renderPlayers()}
