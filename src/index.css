@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  text-align: center;
+  color: rgb(87, 85, 180);
+  background-color: skyblue;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  border-style: double;
+  border-radius: 10px;
+  border-width: 20px;
+  border-color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: black;
+}
+
+
+.freeagent {
+  border-style: double;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: black;
+  margin-left: 35%;
+  margin-right: 35%;
+  
+}
+
+form {
+  padding: 5px;
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(87, 85, 180);
+}
+
+button {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  transition: opacity 0.2s ease;
+  border-style: double;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 0%;
+}
