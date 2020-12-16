@@ -10,7 +10,7 @@ class FreeAgent extends React.Component {
             
             <div className="freeagent">
                 <div className="facard">{freeagent.position} {freeagent.name}<br></br>
-                    ${freeagent.contract_value} million ({freeagent.contract_length})<br></br>
+                    {/* ${freeagent.contract_value} million ({freeagent.contract_length})<br></br> */}
                     <BidForm />
                 </div>
             </div>

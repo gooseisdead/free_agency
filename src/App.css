@@ -1,38 +1,92 @@
-.App {
+
+body {
   text-align: center;
+  color: rgb(87, 85, 180);
+  background-color: skyblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 150px;
+  height: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  border-style: double;
+  border-radius: 10px;
+  border-width: 20px;
+  border-color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.freeagent {
+  padding: 10px;
+  
+}
+
+form {
+  padding: 5px;
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 10px;
+  background-color: rgb(120, 133, 190);
+}
+
+button {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  transition: opacity 0.2s ease;
+  border-style: double;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 0%;
+}
+
+/* 
+
+p {
+  font-size: 1.5em;
+  color: black;
+  font-family: Helvetica;
+}
+
+ul {
+  height: 90%;
+  width: 90%;
+}
+
+li {
+  font-size: 1.05em;
+  list-style: none;
+  padding-right: 20px;
+}
+
+button {
+  font-size: .65em;
+  color: #fff;
+  background-color: green;
+  border-radius: 10px;
+} */
+
+.team-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.facard {
+  background-color: #eeeeee;
+  height: 100%;
+  width: 400px;
+  box-shadow: 10px 10px grey;
+  padding: 5px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

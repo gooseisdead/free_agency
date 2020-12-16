@@ -1,4 +1,4 @@
-import './index.css';
+import './App.css';
 import FreeAgentContainer from './Containers/FreeAgentContainer'
 import Header from './Components/Header'
 
