@@ -1,5 +1,5 @@
 import React from 'react';
-import BidForm from '../Components/BidForm'
+import CommentBox from '../Components/BidForm'
 
 class FreeAgent extends React.Component {
 
@@ -11,7 +11,7 @@ class FreeAgent extends React.Component {
             <div className="freeagent">
                 <div className="facard">{freeagent.position} {freeagent.name}<br></br>
                     {/* ${freeagent.contract_value} million ({freeagent.contract_length})<br></br> */}
-                    <BidForm />
+                    <CommentBox />
                 </div>
             </div>
             
